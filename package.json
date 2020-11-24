@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "next-boilerplate",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
     "test": "jest --silent",
     "test:unit": "yarn test --watch",
     "test:ci": "yarn test -- --coverage",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook"
   },
   "husky": {
@@ -27,6 +27,7 @@
   "dependencies": {
     "init": "^0.1.2",
     "next": "10.0.2",
+    "next-pwa": "^3.1.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "sb": "^6.1.5",
@@ -35,9 +36,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.8",
     "@babel/preset-typescript": "^7.12.7",
-    "@storybook/addon-actions": "^6.1.5",
     "@storybook/addon-essentials": "^6.1.5",
-    "@storybook/addon-links": "^6.1.5",
     "@storybook/react": "^6.1.5",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
