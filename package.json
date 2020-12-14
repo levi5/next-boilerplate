@@ -31,7 +31,7 @@
     "next-pwa": "^3.1.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "sb": "^6.1.10",
+    "sb": "^6.1.11",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
