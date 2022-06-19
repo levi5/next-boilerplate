@@ -2548,7 +2548,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-essentials@^6.4.22":
+"@storybook/addon-essentials@^6.5.8":
   version "6.5.8"
   resolved "https://registry.yarnpkg.com/@storybook/addon-essentials/-/addon-essentials-6.5.8.tgz#db89307cb8445c49d23ecaa346516b3793baa28a"
   integrity sha512-K/Aw/GLugCz5/S3c2tz5lnfC8aN6dSoQQDr8xaMDcBlT9h/xZ1l4jQQnx/mvY/qEvXtexBF41DE6ROWGKSZeSg==
@@ -2838,7 +2838,6 @@
     core-js "^3.8.2"
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
-
 "@storybook/cli@6.5.8":
   version "6.5.8"
   resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-6.5.8.tgz#3f5dd0c880d6bf87dd9bc61bd55dac81a252cf00"
