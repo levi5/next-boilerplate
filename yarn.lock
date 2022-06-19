@@ -2547,7 +2547,6 @@
     remark-slug "^6.0.0"
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
-
 "@storybook/addon-essentials@^6.5.8":
   version "6.5.8"
   resolved "https://registry.yarnpkg.com/@storybook/addon-essentials/-/addon-essentials-6.5.8.tgz#db89307cb8445c49d23ecaa346516b3793baa28a"
@@ -2903,14 +2902,6 @@
   version "6.4.22"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-6.4.22.tgz#51abedb7d3c9bc21921aeb153ac8a19abc625cd6"
   integrity sha512-LXhxh/lcDsdGnK8kimqfhu3C0+D2ylCSPPQNbU0IsLRmTfbpQYMdyl0XBjPdHiRVwlL7Gkw5OMjYemQgJ02zlw==
-  dependencies:
-    core-js "^3.8.2"
-    global "^4.4.0"
-
-"@storybook/client-logger@6.5.8":
-  version "6.5.8"
-  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-6.5.8.tgz#551f818c4448ef6e6adf9c3ad256e1ae61e2d75c"
-  integrity sha512-dH6HSaVuOIMHy1+rpsqcD3SJxVZEEbuEtsNpdUGwLJaIuduhUJJpM2xQfUW0siZDyrgwoa+znll+G0YNUbv7sg==
   dependencies:
     core-js "^3.8.2"
     global "^4.4.0"
@@ -3878,10 +3869,10 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*", "@types/node@^17.0.42":
-  version "17.0.42"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.42.tgz#d7e8f22700efc94d125103075c074396b5f41f9b"
-  integrity sha512-Q5BPGyGKcvQgAMbsr7qEGN/kIPN6zZecYYABeTDBizOsau+2NMdSVTar9UQw21A2+JyA2KRNDYaYrPB0Rpk2oQ==
+"@types/node@*", "@types/node@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.0.0.tgz#67c7b724e1bcdd7a8821ce0d5ee184d3b4dd525a"
+  integrity sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==
 
 "@types/node@^14.0.10":
   version "14.14.41"
