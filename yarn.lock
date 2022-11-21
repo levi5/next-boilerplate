@@ -2115,6 +2115,7 @@
     core-js "^3.8.2"
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
+
 "@storybook/channels@6.5.13":
   version "6.5.13"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-6.5.13.tgz#f3f86b90a7832484ee3dcbc6845f5a47f62f028f"
@@ -2128,7 +2129,6 @@
   version "6.5.13"
   resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-6.5.13.tgz#693a84a50803bc24861b483e10a3a08ec738e90f"
   integrity sha512-AU8PWJnPJzBwhG9kQZ2frGBf08c6I0VanQOchzM158Txr9at619YrwltosdSVpBNzyNkOeZoQgEJCOK0mQLvow==
-
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/preset-env" "^7.12.11"
@@ -2201,7 +2201,7 @@
   dependencies:
     core-js "^3.8.2"
     global "^4.4.0"
-ty sha512-KFh9L6B3mpRaKqe3MTiuWWoNanB+tHtcnDzZH4QSKRYB2AgWY3jmuEXOQVaKrR65e3WjFccTDMYyU+ZnK9RofA==
+
 "@storybook/codemod@6.5.13":
   version "6.5.13"
   resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-6.5.13.tgz#e0d56cc99c22f48870a344e144d7c2ca9f9f825a"
@@ -2459,26 +2459,6 @@ ty sha512-KFh9L6B3mpRaKqe3MTiuWWoNanB+tHtcnDzZH4QSKRYB2AgWY3jmuEXOQVaKrR65e3WjFc
   dependencies:
     "@storybook/core-client" "6.5.13"
     "@storybook/core-server" "6.5.13"
-
-"@storybook/csf-tools@6.5.12":
-  version "6.5.12"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-6.5.12.tgz#7740becd059686001d4c1b4db3f43e792362d918"
-  integrity sha512-BPhnB1xJtBVOzXuCURzQRdXcstE27ht4qoTgQkbwUTy4MEtUZ/f1AnHSYRdzrgukXdUFWseNIK4RkNdJpfOfNQ==
-  dependencies:
-    "@babel/core" "^7.12.10"
-    "@babel/generator" "^7.12.11"
-    "@babel/parser" "^7.12.11"
-    "@babel/plugin-transform-react-jsx" "^7.12.12"
-    "@babel/preset-env" "^7.12.11"
-    "@babel/traverse" "^7.12.11"
-    "@babel/types" "^7.12.11"
-    "@storybook/csf" "0.0.2--canary.4566f4d.1"
-    "@storybook/mdx1-csf" "^0.0.1"
-    core-js "^3.8.2"
-    fs-extra "^9.0.1"
-    global "^4.4.0"
-    regenerator-runtime "^0.13.7"
-    ts-dedent "^2.0.0"
 
 "@storybook/csf-tools@6.5.13":
   version "6.5.13"
@@ -2805,24 +2785,6 @@ ty sha512-KFh9L6B3mpRaKqe3MTiuWWoNanB+tHtcnDzZH4QSKRYB2AgWY3jmuEXOQVaKrR65e3WjFc
     synchronous-promise "^2.0.15"
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
-
-"@storybook/telemetry@6.5.12":
-  version "6.5.12"
-  resolved "https://registry.yarnpkg.com/@storybook/telemetry/-/telemetry-6.5.12.tgz#12b0a2bcfe47d57ee6e6344ac789a905a5912747"
-  integrity sha512-mCHxx7NmQ3n7gx0nmblNlZE5ZgrjQm6B08mYeWg6Y7r4GZnqS6wZbvAwVhZZ3Gg/9fdqaBApHsdAXp0d5BrlxA==
-  dependencies:
-    "@storybook/client-logger" "6.5.12"
-    "@storybook/core-common" "6.5.12"
-    chalk "^4.1.0"
-    core-js "^3.8.2"
-    detect-package-manager "^2.0.1"
-    fetch-retry "^5.0.2"
-    fs-extra "^9.0.1"
-    global "^4.4.0"
-    isomorphic-unfetch "^3.1.0"
-    nanoid "^3.3.1"
-    read-pkg-up "^7.0.1"
-    regenerator-runtime "^0.13.7"
 
 "@storybook/telemetry@6.5.13":
   version "6.5.13"
@@ -12815,10 +12777,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
-typescript@^4.7.4:
-  version "4.8.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.4.tgz#c464abca159669597be5f96b8943500b238e60e6"
-  integrity sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==
+typescript@^4.9.3:
+  version "4.9.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.3.tgz#3aea307c1746b8c384435d8ac36b8a2e580d85db"
+  integrity sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==
 
 uglify-js@^3.1.4:
   version "3.17.3"
