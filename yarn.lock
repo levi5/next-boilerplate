@@ -2115,6 +2115,7 @@
     core-js "^3.8.2"
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
+
 "@storybook/channels@6.5.13":
   version "6.5.13"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-6.5.13.tgz#f3f86b90a7832484ee3dcbc6845f5a47f62f028f"
@@ -2128,7 +2129,6 @@
   version "6.5.13"
   resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-6.5.13.tgz#693a84a50803bc24861b483e10a3a08ec738e90f"
   integrity sha512-AU8PWJnPJzBwhG9kQZ2frGBf08c6I0VanQOchzM158Txr9at619YrwltosdSVpBNzyNkOeZoQgEJCOK0mQLvow==
-
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/preset-env" "^7.12.11"
@@ -2201,7 +2201,7 @@
   dependencies:
     core-js "^3.8.2"
     global "^4.4.0"
-ty sha512-KFh9L6B3mpRaKqe3MTiuWWoNanB+tHtcnDzZH4QSKRYB2AgWY3jmuEXOQVaKrR65e3WjFccTDMYyU+ZnK9RofA==
+
 "@storybook/codemod@6.5.13":
   version "6.5.13"
   resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-6.5.13.tgz#e0d56cc99c22f48870a344e144d7c2ca9f9f825a"
@@ -2459,26 +2459,6 @@ ty sha512-KFh9L6B3mpRaKqe3MTiuWWoNanB+tHtcnDzZH4QSKRYB2AgWY3jmuEXOQVaKrR65e3WjFc
   dependencies:
     "@storybook/core-client" "6.5.13"
     "@storybook/core-server" "6.5.13"
-
-"@storybook/csf-tools@6.5.12":
-  version "6.5.12"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-6.5.12.tgz#7740becd059686001d4c1b4db3f43e792362d918"
-  integrity sha512-BPhnB1xJtBVOzXuCURzQRdXcstE27ht4qoTgQkbwUTy4MEtUZ/f1AnHSYRdzrgukXdUFWseNIK4RkNdJpfOfNQ==
-  dependencies:
-    "@babel/core" "^7.12.10"
-    "@babel/generator" "^7.12.11"
-    "@babel/parser" "^7.12.11"
-    "@babel/plugin-transform-react-jsx" "^7.12.12"
-    "@babel/preset-env" "^7.12.11"
-    "@babel/traverse" "^7.12.11"
-    "@babel/types" "^7.12.11"
-    "@storybook/csf" "0.0.2--canary.4566f4d.1"
-    "@storybook/mdx1-csf" "^0.0.1"
-    core-js "^3.8.2"
-    fs-extra "^9.0.1"
-    global "^4.4.0"
-    regenerator-runtime "^0.13.7"
-    ts-dedent "^2.0.0"
 
 "@storybook/csf-tools@6.5.13":
   version "6.5.13"
@@ -2806,24 +2786,6 @@ ty sha512-KFh9L6B3mpRaKqe3MTiuWWoNanB+tHtcnDzZH4QSKRYB2AgWY3jmuEXOQVaKrR65e3WjFc
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/telemetry@6.5.12":
-  version "6.5.12"
-  resolved "https://registry.yarnpkg.com/@storybook/telemetry/-/telemetry-6.5.12.tgz#12b0a2bcfe47d57ee6e6344ac789a905a5912747"
-  integrity sha512-mCHxx7NmQ3n7gx0nmblNlZE5ZgrjQm6B08mYeWg6Y7r4GZnqS6wZbvAwVhZZ3Gg/9fdqaBApHsdAXp0d5BrlxA==
-  dependencies:
-    "@storybook/client-logger" "6.5.12"
-    "@storybook/core-common" "6.5.12"
-    chalk "^4.1.0"
-    core-js "^3.8.2"
-    detect-package-manager "^2.0.1"
-    fetch-retry "^5.0.2"
-    fs-extra "^9.0.1"
-    global "^4.4.0"
-    isomorphic-unfetch "^3.1.0"
-    nanoid "^3.3.1"
-    read-pkg-up "^7.0.1"
-    regenerator-runtime "^0.13.7"
-
 "@storybook/telemetry@6.5.13":
   version "6.5.13"
   resolved "https://registry.yarnpkg.com/@storybook/telemetry/-/telemetry-6.5.13.tgz#a190001f679ce7899c72b53710765685281fe567"
@@ -3092,10 +3054,10 @@ ty sha512-KFh9L6B3mpRaKqe3MTiuWWoNanB+tHtcnDzZH4QSKRYB2AgWY3jmuEXOQVaKrR65e3WjFc
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@*", "@types/jest@^29.2.2":
-  version "29.2.2"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.2.2.tgz#874e7dc6702fa6a3fe6107792aa98636dcc480b4"
-  integrity sha512-og1wAmdxKoS71K2ZwSVqWPX6OVn3ihZ6ZT2qvZvZQm90lJVDyXIjYcu4Khx2CNIeaFv12rOU/YObOsI3VOkzog==
+"@types/jest@*", "@types/jest@^29.2.4":
+  version "29.2.4"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.2.4.tgz#9c155c4b81c9570dbd183eb8604aa0ae80ba5a5b"
+  integrity sha512-PipFB04k2qTRPePduVLTRiPzQfvMeLwUN3Z21hsAKaB/W9IIzgB2pizCL466ftJlcyZqnHoC9ZHpxLGl3fS86A==
   dependencies:
     expect "^29.0.0"
     pretty-format "^29.0.0"
