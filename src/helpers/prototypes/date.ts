@@ -44,5 +44,4 @@ Date.prototype.$dayMonthYear = function () {
   }
 }
 
-
 export {}
