@@ -11,7 +11,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: 14.x
+          node-version: 19.4.x
 
       - name: Install dependencies
         run: yarn install
@@ -20,7 +20,7 @@ jobs:
         run: yarn lint
 
       - name: Test
-        run: yarn test
+        run: yarn test:unit
 
       - name: Build
         run: yarn build

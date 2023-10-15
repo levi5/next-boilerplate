@@ -1,0 +1,26 @@
+@mixin line_base {
+  width: 24vh;
+  height: 0.2rem;
+  margin-top: -13vh;
+  margin-left: -14.4vh;
+  position: absolute;
+  background-color: colors(main, primary-color);
+  border: 0;
+  transform: rotate(90deg);
+  z-index: 2;
+
+  @include media-breakpoint-up('screen-lg') {
+    width: 34vw;
+    margin-top: 0;
+    margin-left: 0;
+    transform: rotate(0deg);
+  }
+
+  &.left {
+    margin-left: -14vh;
+
+    @include media-breakpoint-up('screen-lg') {
+      margin-left: -6vw;
+    }
+  }
+}

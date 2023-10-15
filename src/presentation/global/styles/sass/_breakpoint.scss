@@ -1,0 +1,28 @@
+$grid-breakpoints: (
+  screen-xs: 480px,
+  screen-sm: 576px,
+  screen-md: 768px,
+  screen-lg: 1024px,
+  screen-xl: 1400px,
+  screen-crt: 1440px,
+  screen-xlg: 1600px,
+  screen-xxl: 1920px,
+  screen-x4k: 3840px,
+);
+
+//functions
+@function get-breakpoint($breakpoint) {
+  @if map-has-key($grid-breakpoints, $breakpoint) {
+    @return map-get($grid-breakpoints, $breakpoint);
+  }
+
+  @warn "Unknown `#{name}` in $grid-breakpoints.";
+  @return null;
+}
+
+//@mixins
+@mixin media-breakpoint-up($breakpoint) {
+  @media screen and (min-width: get-breakpoint($breakpoint)) {
+    @content;
+  }
+}

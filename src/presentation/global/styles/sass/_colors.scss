@@ -1,0 +1,38 @@
+// colors
+$main-colors: (
+  primary-color:#7D3B00,
+  secondary-color:#E0C398,
+  poisonousApple-color:#9c343f,
+  white-color:#fff,
+  black-color:#000,
+  pirate-black-color:#363636,
+  light-Silver-color:#CECECE,
+  gray-color: #808080,
+  golden-yellow-color:#FEA12B,
+  white-smoke-color:#EFEFEF,
+  light-beige-color:#FAF5ED,
+  dark-red-color : #AA273B
+);
+
+$colors: (
+  "main": $main-colors,
+);
+
+
+//functions
+@function colors($color, $type) {
+  @if map-has-key($colors, $color) {
+    $current_color: map-get($colors, $color);
+
+    @if map-has-key($current_color, $type) {
+      @return map-get($current_color, $type);
+    }
+  }
+
+  @warn "Unknown `#{name}` in $colors.";
+  @return null;
+}
+
+@function hex_from_rgb($color, $opacity: 1) {
+  @return rgba($color, $opacity);
+}
