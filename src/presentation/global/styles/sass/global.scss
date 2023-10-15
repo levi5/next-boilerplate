@@ -1,0 +1,56 @@
+:root {
+  --headerHeight: 6.8rem;
+}
+
+html {
+  // 16px - 100
+  // 10 - x
+  // 1rem = 10px
+  font-size: 62.5%;
+}
+
+body {
+  font-family: fonts(primary-font);
+}
+
+html.hide-scroll,
+body.hide-scroll {
+  overflow: hidden;
+}
+
+body[data-page-name="coursesAndEvent"] {
+  .g-floating,
+  .g-scrollTop {
+
+    bottom: 25%;
+    @include media-breakpoint-up('screen-lg') {
+      bottom: 1rem;
+    }
+  }
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: calc(var(--headerHeight) * -1);
+
+}
+
+main.nonOverlapping {
+  margin-top: 0;
+}
+
+
+
+.seo-hide-element {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  opacity: 0;
+}
+
+.termsfeed-com---nb-simple {
+  max-width: 100% !important;
+
+  left: 0 !important;
+}

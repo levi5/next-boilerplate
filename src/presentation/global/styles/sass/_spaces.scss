@@ -1,0 +1,25 @@
+//spaces
+// 1rem = 10;
+//px : rem
+
+//functions
+@function spacings($space) {
+  @if (($space % 4) == 0) {
+    @return ($space / 10) + rem;
+  }
+
+  @warn "Unknown `#{$space}` in $spaces(The width of the element is not a multiple of 4).";
+  @return null;
+}
+
+//mixins
+@mixin flex-container($direction: row,
+  $spacing: space-between,
+  $alignment: center,
+  $wrap: wrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $spacing;
+  align-items: $alignment;
+  flex-wrap: $wrap;
+}
