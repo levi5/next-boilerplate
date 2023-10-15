@@ -1,5 +1,21 @@
 {
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "endOfLine":"auto",
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxSingleQuote": true,
+    "tsxSingleQuote": true,
+    "printWidth": 100,
+    "proseWrap": "always",
+    "quoteProps": "consistent",
+    "requirePragma": false,
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
     "trailingComma": "none",
-    "semi": true,
-    "singleQuote": true
-}
+    "useTabs": false,
+    "parser": "typescript",
+    "bracketSameLine": false
+
+  }

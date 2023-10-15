@@ -1,0 +1,8 @@
+build
+dist
+node_modules
+public
+**/*.scss
+**/*.md
+**/*.hbs
+**/*.handlebars
