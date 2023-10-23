@@ -42,7 +42,7 @@
     "@testing-library/react": "^14.0.0",
     "@types/node": "^20.8.7",
     "@types/react": "^17.0.43",
-    "@vitest/coverage-c8": "^0.28.5",
+    "@vitest/coverage-c8": "^0.33.0",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "babel-loader": "^9.0.0",
