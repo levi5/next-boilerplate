@@ -42,7 +42,7 @@
     "@storybook/react": "^7.5.3",
     "@testing-library/react": "^14.1.2",
     "@types/node": "^20.10.0",
-    "@types/react": "^18.2.38",
+    "@types/react": "^18.2.41",
     "@vitest/coverage-c8": "^0.33.0",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
