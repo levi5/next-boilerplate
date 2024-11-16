@@ -1,19 +1,19 @@
 import { _pipe } from 'funcio'
 
-
 Date.prototype.$formatBrazilianDate = function (): string {
-	const day = String(this.getDate()).padStart(2, '0')
-	const month = String(this.getMonth() + 1).padStart(2, '0')
-	const year = this.getFullYear()
-	return `${day}/${month}/${year}`
+  const day = String(this.getDate()).padStart(2, '0')
+  const month = String(this.getMonth() + 1).padStart(2, '0')
+
+  const year = this.getFullYear()
+  return `${day}/${month}/${year}`
 }
 
 Date.prototype.$time = function () {
-	return _pipe(this, () => ({
-		hours: String(this.getUTCHours()).padStart(2, '0'),
-		minutes: String(this.getUTCMinutes()).padStart(2, '0'),
-		seconds: String(this.getUTCSeconds()).padStart(2, '0')
-	}))
+  return _pipe(this, () => ({
+    hours: String(this.getUTCHours()).padStart(2, '0'),
+    minutes: String(this.getUTCMinutes()).padStart(2, '0'),
+    seconds: String(this.getUTCSeconds()).padStart(2, '0')
+  }))
 }
 
 Date.prototype.$timeDifference = function (timeUTC: string) {
