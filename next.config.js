@@ -8,7 +8,7 @@ dns.setDefaultResultOrder('ipv4first')
 const nextConfig = {
 	env,
 	images: {
-		domains: ['images.ctfassets.net', 'fakeimg.pl', 'reservation-widget.tagme.com.br', 'eventbrite.com.br', 'img.evbuc.com'],
+		domains: [''],
 	},
 	sassOptions: {
 		includePaths: [join(__dirname, 'src', 'presentation', 'global', 'styles', 'sass')],

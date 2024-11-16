@@ -1,4 +1,4 @@
-import { _pipe } from '@/functional/pipe'
+import { _pipe } from 'funcio'
 
 export interface INormalizeUrl {
   removeDuplicateSlashes(url: string): string
