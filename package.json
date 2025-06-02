@@ -33,7 +33,7 @@
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "sass": "^1.69.4",
-    "sb": "^8.0.9"
+    "sb": "^9.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.23.5",
