@@ -41,7 +41,7 @@
     "@storybook/addon-essentials": "^8.0.9",
     "@storybook/react": "^9.0.4",
     "@testing-library/react": "^16.0.1",
-    "@types/node": "^22.5.2",
+    "@types/node": "^24.0.2",
     "@types/react": "npm:types-react@19.0.0-rc.1",
     "@typescript-eslint/eslint-plugin": "^8.3.0",
     "@typescript-eslint/parser": "8.33.0",
