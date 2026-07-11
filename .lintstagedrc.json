@@ -1,8 +1,5 @@
 {
-  "**/*.{css,scss,html}": [
-    "npm run format --write"
-  ],
-  "**/*.{js,jsx,ts,tsx}": [
-    "eslint --fix"
+  "**/*.{js,jsx,ts,tsx,css,json,html}": [
+    "biome check --write"
   ]
 }

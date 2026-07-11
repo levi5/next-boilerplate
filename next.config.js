@@ -8,7 +8,7 @@ dns.setDefaultResultOrder('ipv4first')
 const nextConfig = {
 	env,
 	images: {
-		domains: [''],
+		remotePatterns: [],
 	},
 	sassOptions: {
 		includePaths: [join(__dirname, 'src', 'presentation', 'global', 'styles', 'sass')],
@@ -40,6 +40,7 @@ const nextConfig = {
 		}
 		return config
 	},
+	turbopack: {},
 }
 
 module.exports = nextConfig
