@@ -8,7 +8,7 @@
     "dev:hml": "npm run env:homologation next dev",
     "start:hml": "npm run env:homologation next start",
     "build:hml": "npm run env:homologation  next build",
-    "dev": "npm run env:production next dev --turbopack",
+    "dev": "npm run env:production next dev",
     "build": "npm run env:production  next build",
     "start": "npm run env:production next start",
     "format": "biome format --write .",
@@ -18,7 +18,7 @@
     "coverage": "vitest run --coverage --config './settings/vitest/coverage.vitest.config.ts'"
   },
   "engines": {
-    "node": ">=22"
+    "node": ">=24"
   },
   "dependencies": {
     "cross-env": "^10.1.0",
