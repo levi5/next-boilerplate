@@ -23,7 +23,7 @@
   "dependencies": {
     "cross-env": "^10.1.0",
     "dotenv": "^17.4.2",
-    "funcio": "^0.0.30",
+    "funcio": "^0.1.0",
     "init": "^0.1.2",
     "next": "16.3.0",
     "next-pwa": "^5.6.0",
