@@ -1,7 +1,7 @@
 import { InternalServerError } from '@/helpers/errors'
 
-export class HttpResponseHelper {
-  public static badRequest<T extends any>(error: T) {
+export const HttpResponseHelper = {
+  badRequest<T>(error: T) {
     return {
       statusCode: 400,
       body: {
@@ -9,9 +9,9 @@ export class HttpResponseHelper {
         error
       }
     }
-  }
+  },
 
-  public static internalServerError<T extends Error>(error?: T) {
+  internalServerError<T extends Error>(_error?: T) {
     return {
       statusCode: 500,
       body: {
@@ -19,9 +19,9 @@ export class HttpResponseHelper {
         error: new InternalServerError('Internal Server Error')
       }
     }
-  }
+  },
 
-  public static success<T = any>(data: T) {
+  success<T>(data: T) {
     return {
       statusCode: 200,
       body: {
@@ -29,9 +29,9 @@ export class HttpResponseHelper {
         error: null
       }
     }
-  }
+  },
 
-  public static successNotContent() {
+  successNotContent() {
     return {
       statusCode: 201,
       body: null

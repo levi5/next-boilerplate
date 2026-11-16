@@ -1,6 +1,6 @@
-const { join } = require('path')
+const { join } = require('node:path')
 const { env } = require('./settings/setEnvironment')
-const dns = require('dns')
+const dns = require('node:dns')
 
 dns.setDefaultResultOrder('ipv4first')
 
@@ -27,7 +27,7 @@ const nextConfig = {
 			value: 'same-origin',
 		}]
 	}],
-	webpack: (config, { isServer }) => {
+	webpack: (config) => {
 		config.ignoreWarnings = [
 			{ file: /node_modules\/handlebars\/lib\/index.js/ },
 			{ file: /node_modules\/node-fetch\/lib\/index.js/ },
