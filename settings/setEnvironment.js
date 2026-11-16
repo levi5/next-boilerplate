@@ -1,4 +1,4 @@
-const { resolve } = require('path')
+const { resolve } = require('node:path')
 
 const fileName = `.env.${process.env.TARGET_ENV}`
 const pathBase = resolve('settings', 'environment')
