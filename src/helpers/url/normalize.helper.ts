@@ -8,7 +8,6 @@ export interface INormalizeUrl {
 }
 
 export class NormalizeUrl implements INormalizeUrl {
-  constructor() {}
   public removeDuplicateSlashes(url: string): string {
     return url.replace(/([^:])(\/\/+)/g, '$1/')
   }
@@ -19,7 +18,7 @@ export class NormalizeUrl implements INormalizeUrl {
 
     const size = arrayUrl.length - 1
     arrayUrl.forEach((part: string, index: number) => {
-      urlNormalized += index === 0 && size >= 1 ? part + '?' : index >= size ? part : part + '&'
+      urlNormalized += index === 0 && size >= 1 ? `${part}?` : index >= size ? part : `${part}&`
     })
     return urlNormalized
   }
