@@ -44,5 +44,3 @@ Date.prototype.$dayMonthYear = function () {
 		year: String(this.getUTCFullYear())
 	}
 }
-
-export { }

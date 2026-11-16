@@ -49,7 +49,9 @@ main.nonOverlapping {
 }
 
 .termsfeed-com---nb-simple {
+  /* biome-ignore lint/complexity/noImportantStyles: Override the third-party TermsFeed banner styles. */
   max-width: 100% !important;
 
+  /* biome-ignore lint/complexity/noImportantStyles: Override the third-party TermsFeed banner positioning. */
   left: 0 !important;
 }
