@@ -15,8 +15,8 @@ importers:
         specifier: ^18.0.10
         version: 18.0.10
       funcio:
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.2.0
+        version: 0.2.0
       init:
         specifier: ^0.1.2
         version: 0.1.2
@@ -2112,8 +2112,8 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  funcio@0.1.0:
-    resolution: {integrity: sha512-POUnTVigN9SR6A8ZtRwmUptUTw2abKMCDAF8VGAqTY46RXTeNJQzBddxSZMMGpAXb3eBIPu7G/nL2gXoco60cw==}
+  funcio@0.2.0:
+    resolution: {integrity: sha512-LNRXZFL0/KmEGCpHp9xn7KIO8Kcv1a5whGw1kF3xegMApV2XlAW+ksBGaHCJ3BcwnUrnvODC5R7JlY88O55hVw==}
 
   function-bind@1.1.2:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
@@ -5506,7 +5506,7 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  funcio@0.1.0: {}
+  funcio@0.2.0: {}
 
   function-bind@1.1.2: {}
 
